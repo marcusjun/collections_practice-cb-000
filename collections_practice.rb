@@ -11,6 +11,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  #There's probably a more succinct way to do this
   new_array=[]
   array.each_with_index do |name,index|
     if index != 1 && index !=2
