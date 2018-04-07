@@ -30,8 +30,8 @@ def swap_elements_from_to(array, index, destination_index)
     if counter != index && index != destination_index
       new_array[counter]=array[counter]
     elsif
-      new_array[index]=array[destination_index]
       new_array[destination_index]=array[index]
+      new_array[index]=array[destination_index]
     end
   end
 end
