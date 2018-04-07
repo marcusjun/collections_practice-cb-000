@@ -25,6 +25,7 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
+  #There's probably a more succinct way to do this
   new_array=[]
   array.each_with_index do |name,counter|
     if counter != index && counter != destination_index
