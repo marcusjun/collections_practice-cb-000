@@ -41,10 +41,13 @@ def find_a(array)
 end
 
 def sum_array(array)
+
+  #Cumbersome method
   #sum=0
   #array.each {|num| sum+=num}
   #sum
 
+  #Simplified method using inject
   array.inject {|sum,number| sum+number}
 
 end
