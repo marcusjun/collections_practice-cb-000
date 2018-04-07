@@ -16,7 +16,7 @@ def swap_elements(array)
   array.each_with_index do |name,index|
     if index != 1 && index !=2
       new_array[index]=array[index]
-    elsif
+    else
       new_array[1]=array[2]
       new_array[2]=array[1]
     end
@@ -29,7 +29,7 @@ def swap_elements_from_to(array, index, destination_index)
   array.each_with_index do |name,counter|
     if counter != index && index != destination_index
       new_array[counter]=array[counter]
-    elsif
+    else
       new_array[index]=array[destination_index]
       new_array[destination_index]=array[index]
     end
