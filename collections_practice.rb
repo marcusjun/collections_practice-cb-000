@@ -45,8 +45,8 @@ def sum_array(array)
   #array.each {|num| sum+=num}
   #sum
 
-  array.inject {|sum,num| sum+n}
-  
+  array.inject {|sum,num| sum+num}
+
 end
 
 def add_s(array)
