@@ -34,6 +34,7 @@ def swap_elements_from_to(array, index, destination_index)
       new_array[destination_index]=array[index]
     #end
   #end
+  new_array
 end
 
 def reverse_array(array)
